@@ -8,6 +8,7 @@ import pytest, time
 from pages.kaifa_page import KaiFa
 from data.kaifa_data import case_required, case_success
 
+
 @pytest.mark.staging
 @pytest.mark.kaifa
 class Test_KaiFa:
@@ -66,7 +67,7 @@ class Test_KaiFa:
     #     create_kf = KaiFa(login)
     #     create_kf.get()
     #     time.sleep(2)
-    #     create_kf.click_create()
+    #     create_kf.creat_k()
     #     time.sleep(2)
     #     create_kf.create_customer(test_info)
 
