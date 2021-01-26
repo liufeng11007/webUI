@@ -11,8 +11,8 @@ from get_zzzs_total import Request
 
 @ddt.ddt
 class TestGetTotal(unittest.TestCase):
-    filename = r"F:\工作\竞品测试\各省有无新闻.xlsx"
-    sheetname = "weibo"
+    filename = r"F:\工作\竞品测试\各省招投标.xlsx"
+    sheetname = "ztb"
     do_excel = RW_Excel(filename, sheetname)
     testcases = do_excel.read_data()
     print(testcases)
@@ -20,7 +20,7 @@ class TestGetTotal(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.header_dict = {
-            "cookie": "_bl_uid=qRkgFg7h3C220vjjau8Uu9jlbsnk; _ga=GA1.2.822939062.1605149792; remember_token=5be5c3fb824bcc7d6ebd69df|8cec488aeb0a5b88ca2163737bf91b8c0fbc7e57ce8d68717275c91ca82272d0649aa13e9374ca9c30c9bcc8197feaf91b0873e6ed73fa6089197fc2c4518479; Hm_lvt_d3ee3af8af62f47558a292277356e90f=1607647949,1607995531,1608166815,1608608271; Hm_lpvt_d3ee3af8af62f47558a292277356e90f=1608616190; Hm_lvt_f2ee75449fc055cc4dbceb4fe403bea3=1608616197,1608616833,1608626305,1608709448; Hm_lpvt_f2ee75449fc055cc4dbceb4fe403bea3=1608709448; accountCenterSessionId=.eJwlzctOwzAUBNB_8boL1_b1I1tgQUUigSKhdhP5PkyaliAlKY8i_p0IpFmemflWXZlk7lW1TBfZKOrzOMpZVepDUG3UKMLdnN-lW946RlWVfJ5XNx95NfWwv9bD7tTcPi57s-ubG60Pr_fw8Hz3WV_r5dA-HZu2hn17-qqHF70OXmaZur8yoADZgtE4JArsBdknLiv6B1kjScTMLqZgbUkhWg_GhUgAXIzxGQ0wk05hK4Kg09ahaNAZY_QkyRcL4hJziSaa4IjceukKeUucowUXENY4EyK6kE2iAuxzsT5nrX5-Ae00Vo8.EsSGxA.J74FfpQw0Jc120iImyBa0sVYw-k; doncusSessionId=eyJfZnJlc2giOmZhbHNlLCJ1c2VyX2lkIjoiNWE2NWIxZjBmYjYxNWMyNmRhNDNjODUzIn0.EsSGxw.N0jBzctvmjeH_kWd9CbphgadkWw",
+            "cookie": "_bl_uid=qRkgFg7h3C220vjjau8Uu9jlbsnk; _ga=GA1.2.822939062.1605149792; remember_token=5be5c3fb824bcc7d6ebd69df|8cec488aeb0a5b88ca2163737bf91b8c0fbc7e57ce8d68717275c91ca82272d0649aa13e9374ca9c30c9bcc8197feaf91b0873e6ed73fa6089197fc2c4518479; Hm_lvt_d3ee3af8af62f47558a292277356e90f=1607995531,1608166815,1608608271,1609123565; Hm_lpvt_d3ee3af8af62f47558a292277356e90f=1609123565; _gid=GA1.2.1996195571.1609123565; Hm_lvt_f2ee75449fc055cc4dbceb4fe403bea3=1608616833,1608626305,1608709448,1609123571; Hm_lpvt_f2ee75449fc055cc4dbceb4fe403bea3=1609123661; doncusSessionId=eyJfZnJlc2giOmZhbHNlLCJ1c2VyX2lkIjoiNWE2NWIxZjBmYjYxNWMyNmRhNDNjODUzIn0.EsrbQw.q1xFkgZbiambCSGl4wCXaKeaZxU; accountCenterSessionId=.eJwtjU0LgkAUAP_LO3sQvypvktClXQm0wMvi232brWbgbiVF_70lOg7MMG-YiJSw3YOEuwmFkOtutBTA3dIsLgpySJFSGWtcRwlKuVIZoco2SkMAsu-miUYvPQk921_AoiZiJ27aunBteXixbRhyUyT7uh-qsnF8dxz4lS1VLRdmzrEPhZ7J9v_55wuRaDEU.EsrbYg.9fXFHbo0MahEucHCCbKhxIgLVpE",
             "referer": "https://sales.tungee.com/customer-seeking/advanced-filter/enterprise"
         }
         cls.do_request = Request()
@@ -81,14 +81,23 @@ class TestGetTotal(unittest.TestCase):
         # }
 
         # 媒体信息：新闻、微博、微信、自媒体
-        news = {
-            "filter": '{"must":[{"'+one_testcase.hasNews+'":[{"exist":"1"}]},{"address":[{"eq":[["'+one_testcase.address+'"]]}]}]}'
+        # news = {
+        #     "filter": '{"must":[{"'+one_testcase.hasNews+'":[{"exist":"1"}]},{"address":[{"eq":[["'+one_testcase.address+'"]]}]}]}'
+        # }
+
+        # 有无推广 按月对比
+        # tuig = {
+        #     "filter": '{"must":[{"hasPrmt":[{"exist":"1"}]},{"prmtSources":[{"in":["360","百度"]}]},{"lastPrmtTime":[{"gte":'+one_testcase.d_gte+',"lte":'+one_testcase.d_lte+'}]}]}'
+        # }
+        # 各省招投标
+        ztb = {
+            "filter": '{"must":[{"hasBidding":[{"exist":"1"}]},{"address":[{"eq":[["'+one_testcase.address+'"]]}]}]}'
         }
 
 
 
         # print(zpxc)
-        res = self.do_request.send("POST", one_testcase.url, data=news)
+        res = self.do_request.send("POST", one_testcase.url, data=ztb)
         print(res.json())
 
         try:

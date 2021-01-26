@@ -11,8 +11,8 @@ from get_zzzs_total import Request
 
 @ddt.ddt
 class TestGetTotal(unittest.TestCase):
-    filename = r"F:\工作\竞品测试\各省有无新闻-备份.xlsx"
-    sheetname = "weibo"
+    filename = r"F:\工作\竞品测试\各省招投标-备份.xlsx"
+    sheetname = "ztb"
     do_excel = RW_Excel(filename, sheetname)
     testcases = do_excel.read_data()
     # print(testcases)
@@ -111,17 +111,32 @@ class TestGetTotal(unittest.TestCase):
         #   "condition": '{\"must\":[{\"mobileComeFrom\":[{\"in\":[\"'+one_testcase.mobileSourceList+'\"]}]},{\"businessLocation\":[{\"in\":[\"'+one_testcase.address+'\"]}]}]}'
         # }
         # 媒体信息：新闻、微博、微信、自媒体
-        news = {
+        # news = {
+        #   "haveLeads": True,
+        #   "pageSize": 100,
+        #   "pageIndex": 1,
+        #   "condition": '{\"must\":[{\"'+one_testcase.hasNews+'\":[{\"exist\":\"1\"}]},{\"businessLocation\":[{\"in\":[\"'+one_testcase.address+'\"]}]}]}'
+        # }
+
+        # 有无推广
+        # tuig = {
+        #     "haveLeads": True,
+        #     "pageSize": 100,
+        #     "pageIndex": 1,
+        #     "condition": '{\"must\":[{\"havePromotion\":[{\"exist\":\"1\"}]},{\"promotionChannel\":[{\"eq\":[\"百度\",\"360\"]}]},{\"lastPromotionTime\":[{\"gte\":\"'+a+'\",\"lte\":\"'+b+'\"}]}]}'
+        # }
+        # 各省招投标
+        ztb = {
           "haveLeads": True,
           "pageSize": 100,
           "pageIndex": 1,
-          "condition": '{\"must\":[{\"'+one_testcase.hasNews+'\":[{\"exist\":\"1\"}]},{\"businessLocation\":[{\"in\":[\"'+one_testcase.address+'\"]}]}]}'
+          "condition": '{\"must\":[{\"haveTenderAndBid\":[{\"exist\":\"1\"}]},{\"businessLocation\":[{\"in\":[\"'+one_testcase.address+'\"]}]}]}'
         }
 
         # print(zpxc_data)
         # print(json.dumps(zpxc_data))
 
-        res = self.do_request.send("POST", one_testcase.url, json=news)
+        res = self.do_request.send("POST", one_testcase.url, json=ztb)
         print(res.json())
 
         try:

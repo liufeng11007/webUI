@@ -8,7 +8,8 @@ from pages.login_page import LoginPage
 from pages.home_page import HomePage
 from data.login_data import cases_error, case_success
 
-
+@pytest.mark.staging
+@pytest.mark.login
 class TestLogin:
 
     @pytest.mark.parametrize("test_info", cases_error)
