@@ -1,122 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abac287f-e5cc-4505-9e98-3a3269e6ef32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cases/dingdan_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cases/gonghai_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dingdan_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/demo_report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/dingdan_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/035aacc3-3ac9-406c-ad9e-22b45ef84713-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/08424669-8cbd-45bb-8ebc-e4877836341d-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/09b952be-c269-41a5-81b0-97795f8a5e36-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/14783780-37aa-4735-8de7-5272dc607608-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/14b82d73-df2a-4ca3-831c-283c206c3ab2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/158f90d0-7aea-4252-8792-aa5f4b9d4d89-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/176091bc-bf93-4f65-a157-8936e14e013c-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/1addc6a5-3233-428f-9f78-8b6ef0a67a0f-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/1c4420c8-d4ad-4104-aa15-1b3f99615e01-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/1dd296db-0cbb-4286-8949-be42234778ba-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/1edb832d-cbda-4477-9142-c5201eb4c100-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/25a5a756-1967-4643-b84a-1ccc64c775a0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/2bfd5945-7f69-4361-949b-1c68d5089282-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/2e1f510c-c4db-4c60-88a2-af6a719058d2-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/328de128-81ef-46b1-8aee-b4d565367d08-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/36fbc5d0-bb55-4d31-bcfd-568c22d3d329-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/38dfcfa3-2f62-43ed-b19d-0ad0e090c5d4-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/3d258ae2-8006-4589-8ce9-0eb326481550-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/3e680199-4bb1-4b74-ac85-a7c4fca70aa0-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/4b7e4c73-38c6-42fa-a90e-ce39b5fbf5e4-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/4bdd5229-354c-4593-a62a-a9d7a0b5f00b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/4c655109-1287-4f28-b19b-f776e1ce0f66-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/50ddf584-e7f5-4fce-8469-b71dfa8ec932-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/5115f7bd-c4b6-4b10-bc08-dc02715f923e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/5342854e-9b7c-4801-be07-94c2b969c1c4-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/541e2605-81ec-431a-8ca1-e4b6a08fe93c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/568184be-0a7e-46f7-92f5-5c3da72b5e50-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/585f89fd-3c19-46f4-aa24-749f817317af-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/58e51198-07ef-449d-a5ed-a0100dc21816-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/62de0b93-c22d-44e8-8b30-b6b42136f387-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/62efe990-028a-4ebf-aa30-bdcc9c1d4c8b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/670f9435-7366-401e-8b44-6e172f313461-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/67efdf0c-6772-45ee-b9c6-d7293c9d1df4-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/68ebb783-d0d1-4f84-b46b-b59c99555a50-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/6b433b69-6b88-4490-9074-c5f4e422ae78-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/721b0fae-93e4-4ebe-a125-c8d765d18d8b-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/7447c57f-fd08-47d6-8393-f2b5681c6a8a-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/767d1708-a9da-4fa0-bf69-c40d5a1e3015-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/78973738-3077-455e-8005-9d2b13f9a344-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/78db47cd-2d7b-4361-b512-549bdf7649d3-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/7c9061b2-bb5f-4e19-8e24-d28d8c92fdf9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/7ca14318-5606-4cf2-a695-77f3c280090f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/81c3b8e0-0256-4c01-a416-6d13fafd603e-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/823cf02a-f26b-4988-bc5c-b89fb2f85952-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/8353bbfd-3723-4b7d-9a31-a4f5576c774e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/84980a05-0e92-40ca-8036-a1dd1bd4022c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/8e7a4493-88bb-4c30-918e-0509725de221-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/9057fe3e-18ef-4b64-9a7a-0ddd1ccd4db9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/906fc255-c51a-4ae3-bb9a-2b95f0c528bd-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/92b7030f-1562-4f17-9592-1276b65c27d6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/933498b0-4dcc-4cc4-87b6-f99126a20399-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/96f8bd5b-e2af-4fa2-bf79-d3ef430ba5e7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/985bc794-e938-415f-99be-ca4179b65221-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/a17b3267-0b45-40d1-8aa5-76682ba78e29-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/a3935be7-b369-4d20-9fb1-0d25f94f0da5-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/a559bbab-dbe9-41a7-a4df-c88f51322b12-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/a65410ea-a30c-4bd6-aacb-d75431b3a907-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/a9324efb-09f0-4182-9770-4d6abb0e1693-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/ace4c81f-0e69-4913-bda0-8ff9663a9ae9-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/b2593468-ab5a-49ec-a870-e1b06f0ccdbe-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/b419b6e3-5fe1-48a8-9336-e52fc4267f09-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/bae7c08e-77ff-4053-a999-483dc8c4e72a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/be5e026b-f055-49a5-81e0-60f5fd8bcdcb-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/c128535a-bc46-4234-b149-451e1f701e39-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/c223b7a6-9cd7-4148-add1-a68164fda63e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/c4591f5e-440c-42bf-9750-aab68fa298cd-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/c65e580c-2205-43a1-91ab-e3f96fbece2a-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/c7fd081a-67c3-412c-921b-0c0e7e2e2263-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/cc999863-9e1a-434f-a17c-cb045cf099f3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/ccc54de2-c4f4-42b6-a655-83f6ee1f6365-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/cfb1eca8-8aeb-4dcc-b357-108c97b9d6bd-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/d01de1e8-6a9c-47fb-9a82-27c012b93dfb-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/d228ff14-9054-46f8-8e11-f0b06fd33aea-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/d42329aa-9d1f-4ebb-94ca-d040b5ada708-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/d5d933ee-3502-4a70-818b-141c25ee9fba-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/d674e102-c9ea-4dd6-85ef-a13fe556f117-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/d6cd486a-2cb3-46e1-b95c-4b9c4c161005-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/d8d01a38-71d6-4a6d-a17d-bf721af58d1b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/dce1ade4-dd6b-4377-b0dd-3ff3ba1385b5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/de24cb1e-5f05-4867-a1c8-cb2df7aa43f8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/dee282fe-07d8-4c49-bac4-abcd8b4da449-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/df14feb5-3efc-4467-ba0f-52dee3cd6e3f-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/e2a033e7-cda9-4f0f-80cf-2a2723224bb2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/e44c08ed-a232-4f3b-a289-63d0218cbafd-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/e8ecd579-7096-44d0-8532-005b1b0fc8c5-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/ef06b365-2a50-446a-8cd2-000c468d2fd9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/efadaf58-7cd2-4569-a1f2-c7f157dc1924-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/f0ae64d2-5ece-46e3-9257-a2b1da795e29-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/f342e572-a30b-41cd-9579-a34f1dfe7614-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/f4da06cd-c2b2-4472-b4a0-d6e51db1cb3b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/f521cf59-855a-46cd-8cc7-8dd6d3178b4c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/kaifa_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/kaifa_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/login_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/gonghai_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gonghai_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/探迹获取数据/1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/探迹获取数据/2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/探迹获取数据/3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/探迹获取数据/get_total_unittest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/探迹获取数据/get_zzzs_total.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/探迹获取数据/jxs_get_total.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/探迹获取数据/rw_excel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/探迹获取数据/建筑资质.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/探迹获取数据/获取资质证书所有条件.py" beforeDir="false" />
-    </list>
+    <list default="true" id="abac287f-e5cc-4505-9e98-3a3269e6ef32" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+            <state relative-caret-position="175">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#96#105#0" expanded="true" />
               </folding>
@@ -276,16 +161,6 @@
               <item name="WebUI" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebUI" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WebUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebUI" type="462c0819:PsiDirectoryNode" />
-              <item name="cases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebUI" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -294,7 +169,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -467,6 +342,7 @@
       <workItem from="1611018040183" duration="3974000" />
       <workItem from="1611538781227" duration="12626000" />
       <workItem from="1611626253383" duration="1772000" />
+      <workItem from="1611630250219" duration="33000" />
     </task>
     <servers />
   </component>
@@ -503,7 +379,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338782000" />
+    <option name="totallyTimeSpent" value="338815000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -516,9 +392,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11567164" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11673774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -532,7 +407,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24805339" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24805339" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -607,31 +482,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/探迹获取数据/2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="5818" selection-start-line="5818" selection-end-line="5819" selection-end-column="49" />
-          <folding>
-            <element signature="e#157#193847#0" />
-            <element signature="e#845#1656#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/探迹获取数据/3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="3571" selection-start-line="3571" selection-end-line="3572" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/探迹获取数据/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="5149" column="16" lean-forward="true" selection-start-line="5149" selection-start-column="16" selection-end-line="5149" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/探迹获取数据/2.py" />
+    <entry file="file://$PROJECT_DIR$/探迹获取数据/3.py" />
+    <entry file="file://$PROJECT_DIR$/探迹获取数据/1.py" />
     <entry file="file://D:/Python38/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -639,51 +492,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/探迹获取数据/建筑资质.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/探迹获取数据/获取资质证书所有条件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/探迹获取数据/get_zzzs_total.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="e#108#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/探迹获取数据/rw_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="65" column="66" lean-forward="true" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/探迹获取数据/get_total_unittest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/探迹获取数据/jxs_get_total.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/探迹获取数据/建筑资质.py" />
+    <entry file="file://$PROJECT_DIR$/探迹获取数据/获取资质证书所有条件.py" />
+    <entry file="file://$PROJECT_DIR$/探迹获取数据/get_zzzs_total.py" />
+    <entry file="file://$PROJECT_DIR$/探迹获取数据/rw_excel.py" />
+    <entry file="file://$PROJECT_DIR$/探迹获取数据/get_total_unittest.py" />
+    <entry file="file://$PROJECT_DIR$/探迹获取数据/jxs_get_total.py" />
     <entry file="file://$PROJECT_DIR$/pages/xiansuo_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
@@ -863,8 +677,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#96#105#0" expanded="true" />
           </folding>
